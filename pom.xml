@@ -66,7 +66,6 @@
         <connection>scm:git:git@github.com:JolyRoger/ServiceBunch.git</connection>
         <url>scm:git:git@github.com:JolyRoger/ServiceBunch.git</url>
         <developerConnection>scm:git:git@github.com:JolyRoger/ServiceBunch.git</developerConnection>
-        <tag>HEAD</tag>
     </scm>
 
     <profiles>
