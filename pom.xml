@@ -4,7 +4,7 @@
 
     <groupId>home.torquemada</groupId>
     <artifactId>ServiceBunch</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -64,7 +64,7 @@
         <connection>scm:git:git@github.com:JolyRoger/ServiceBunch.git</connection>
         <url>scm:git:git@github.com:JolyRoger/ServiceBunch.git</url>
         <developerConnection>scm:git:git@github.com:JolyRoger/ServiceBunch.git</developerConnection>
-      <tag>v1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <profiles>
