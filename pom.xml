@@ -52,4 +52,11 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>file-releases</id>
+            <url>file://C:/Users/Public/Downloads/release</url>
+        </repository>
+    </distributionManagement>
+
 </project>
