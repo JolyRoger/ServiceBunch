@@ -1,0 +1,25 @@
+server:
+  port: 60000
+
+swagger:
+  json:
+    location: config/swagger.json
+
+management:
+  security:
+    enabled: false
+
+zuul:
+  routes:
+    swagger-docs:
+      path: /v2/api-docs
+      url: http://localhost:60001
+    swagger:
+      path: /swagger-resources/**
+      url: http://localhost:60001
+    service1:
+      path: /hello-service1
+      url: http://localhost:60001
+    service2:
+      path: /hello-service2
+      url: http://localhost:60001
